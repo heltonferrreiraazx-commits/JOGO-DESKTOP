@@ -7,7 +7,7 @@ inimigos = ["a", 'b','c'] #lista de inimigos
 chance = ["consegue", ' não consegue']
 inimigo = (random.choice(inimigos)), 
 
-
+For in range(5):
 (("O inimigo encontrado foi um ", inimigo))
 e = input("escolha o que você vai fazer\n Atacar (A)\n Fugir (F)\n=")
 
