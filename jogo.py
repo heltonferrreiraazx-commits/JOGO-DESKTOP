@@ -7,13 +7,13 @@ inimigos = ["a", 'b','c'] #lista de inimigos
 chance = ["consegue", ' não consegue']
 inimigo = (random.choice(inimigos)), 
 
-For in range(5):
+While True:
 (("O inimigo encontrado foi um ", inimigo))
 e = input("escolha o que você vai fazer\n Atacar (A)\n Fugir (F)\n=")
 
 
 if e == "a":
-    w = input ("Escolha o objeto que você vai atacar\n Arma\n Espada ")
+    w = input ("Escolha o objeto que você vai atacar\n Arma\n Espada\n = ")
     if w == 'Arma':
         inim = (life - 8)
         print ("a vida dele é", inim)
