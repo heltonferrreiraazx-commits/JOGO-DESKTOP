@@ -1,5 +1,6 @@
 import random
 import time
+import math
 person = input (f"Qual será o nome do seu personagem?\n")
 
 vida = 10 #vida da gente 
